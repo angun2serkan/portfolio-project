@@ -1,15 +1,16 @@
 import React from 'react'
-import classes from './Nabar.module.css';
+import classes from './Navbar.module.css';
+
 
 function Navbar() {
   return (
-    <div className={classes.navbar-wrapper}>
-        <div className={classes.navbar-left}>
-            <div className={classes.navbar-blogname}></div>
+    <div className={classes.navbar__wrapper}>
+        <div className={classes.navbar__left}>
+            <div className={classes.navbar__blogname}>Serkan Angün</div>
             <span>toggle</span>
         </div>
-        <div className={classes.navbar-right}>
-            <div className={classes.navbar-list}>
+        <div className={classes.navbar__right}>
+            <div className={classes.navbar__list}>
                 <ul>
                     <li>Home</li>
                     <li>Services</li>
@@ -18,12 +19,12 @@ function Navbar() {
                     <li>Testimonials</li>
                 </ul>
             </div>
-            <button className={classes.button}>
-                Contact Us :)
+            <button className={`${classes.button} ${classes.navbar__button}`}>
+                Contact Us 
             </button>
         </div>
     </div>
   )
 }
 
-export default navbar
+export default Navbar

@@ -1,9 +1,10 @@
-import './App.css';
+import classes from './App.module.css';
+import Navbar from './components/navbar/Navbar';
 
 function App() {
   return (
-    <div className="App">
-      Serkan Angün Personal Blog & Portfolio Website
+    <div className={classes.App}>
+      <Navbar/>
     </div>
   );
 }
