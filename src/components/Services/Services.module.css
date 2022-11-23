@@ -63,3 +63,21 @@
     left: 56%;
 
   }
+
+  .cards{
+    position: relative;
+  }
+
+  .cards>*{
+    position: absolute;
+  }
+
+  .services__blur2{
+    left: 14rem;
+    top: 8rem;
+  }
+
+  .services__blur1{
+    top: 13rem;
+    left: -18rem;
+  }

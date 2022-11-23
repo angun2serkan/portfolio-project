@@ -40,9 +40,9 @@ function Intro() {
 
         {/* right image side */}
         <div className={classes.intro__right}> 
-          <img src={Vector1} alt="right-side images"/>
+          {/* <img src={Vector1} alt="right-side images"/>
           <img src={Vector2} alt="right-side images"/>
-          <img src={Boy} alt="right-side images"/>
+          <img src={Boy} alt="right-side images"/> */}
 
           {/* <div className={classes.crownicon}>
             <FloatingDiv image={Crown} txt1='Web' txt2='Developer' />

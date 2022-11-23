@@ -5,7 +5,9 @@ function Card(props) {
   return (
     <div className={classes.card}>
         <img src={props.emoji} alt=''/>
-        <span>{props.heading}; {props.detail}</span>
+        <span>{props.heading}; </span>
+        <span>{props.detail}</span>
+        <button className={classes.card__button}>Learn More</button>
 
     </div>
   )
