@@ -31,9 +31,15 @@ function Intro() {
             </button>
             
             <div className={classes.intro__icons}>
+              <a href='https://github.com/angun2serkan' target='_blank'>
                 <img src={Github} alt="github" />
+              </a>
+              <a href='https://www.linkedin.com/in/serkan-ang%C3%BCn/' target='_blank'>
                 <img src={Linkedin} alt="linkedin" />
+              </a>
+              <a href='https://www.instagram.com/player2srkn/' target='_blank'>
                 <img src={Instagram} alt="instagram" />
+              </a>
             </div>
 
         </div>
@@ -52,8 +58,8 @@ function Intro() {
           </div> */}
 
           {/* blur divs */}
-          <div className={classes.blur} style={{background:"rgb(238 210 255)"}}></div>
-          <div className={classes.blur} style={{backgroun:'#C1F5FF', top:'17rem', width:'21rem', height:'11rem', left:'-9rem'}}></div>
+          {/* <div className={classes.blur} style={{background:"rgb(238 210 255)"}}></div>
+          <div className={classes.blur} style={{backgroun:'#C1F5FF', top:'17rem', width:'21rem', height:'11rem', left:'-9rem'}}></div> */}
         </div>
     </div>
   )
