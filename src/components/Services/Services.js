@@ -14,7 +14,11 @@ function Services() {
         <div className={classes.awesome}>
             <span>My Awesome</span>
             <span>services</span>
-            <span>Lorem ipsum dolor sit, amet consectetur adipisicing elit.<br/> Eius assumenda, quas exercitationem earum rerum cupiditate.</span>
+            <span>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit.<br/> 
+            Eius assumenda, quas exercitationem earum rerum cupiditate.<br/> 
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit.<br/>
+            </span>
 
             <a href={Resume} download>
               <button className={`${classes.button} ${classes.services__button}`}>Download CV</button>
