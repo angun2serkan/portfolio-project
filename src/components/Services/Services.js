@@ -12,8 +12,8 @@ function Services() {
     <div className={classes.services}>
         {/* left side */}
         <div className={classes.awesome}>
-            <span>My Awesome</span>
-            <span>services</span>
+            <span>RELENTLESS</span>
+            <span>Services</span>
             <span>
             Lorem ipsum dolor sit, amet consectetur adipisicing elit.<br/> 
             Eius assumenda, quas exercitationem earum rerum cupiditate.<br/> 
@@ -29,7 +29,7 @@ function Services() {
         {/* right side */}
         <div className={classes.cards}>
           <div style={{left:'14rem'}}>
-            <Card emoji={HeartEmoji} heading={'Design '} detail={"Figma, Sketch, Photoshop, Adobe"}/>
+            <Card emoji={HeartEmoji} heading={'UX/UI '} detail={"Figma, Sketch, Photoshop, Adobe"}/>
           </div>
 
           <div style={{top:"12rem", left:"-4rem"}}>
@@ -37,7 +37,7 @@ function Services() {
           </div>
 
           <div style={{top:"19rem", left:"12rem"}}>
-            <Card emoji={Humble} heading={"UX/UI"} detail={"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has"}/>
+            <Card emoji={Humble} heading={"Data Engineering"} detail={"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has"}/>
           </div>
 
           <div className={`${classes.blur} ${classes.services__blur2}`} style={{background: "var(--purple)"}}></div>

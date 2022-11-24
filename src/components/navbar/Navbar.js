@@ -6,7 +6,7 @@ function Navbar() {
   return (
     <div className={classes.navbar__wrapper}>
         <div className={classes.navbar__left}>
-            <div className={classes.navbar__blogname}>Serkan Angün</div>
+            <div className={classes.navbar__blogname}>Relentless Tech</div>
             <span>toggle</span>
         </div>
         <div className={classes.navbar__right}>

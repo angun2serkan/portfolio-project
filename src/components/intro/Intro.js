@@ -17,9 +17,9 @@ function Intro() {
       {/* left name side */}
         <div className={classes.intro__left}>
             <div className={classes.intro__name}>
-                <span>Hey! I am </span>
-                <span>Serkan Angün </span>
-                <span>Frontend Developer with low level experinece and sky rocket level of patience in web designing and development.</span>
+                <span>We are here to </span>
+                <span>Turn the Rock You have into a Statue </span>
+                <span>just like what Michalengelo did to David!</span>
             </div>
 
             <button className={`${classes.intro__button} ${classes.button}`}>
