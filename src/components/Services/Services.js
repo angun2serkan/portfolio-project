@@ -15,7 +15,7 @@ function Services() {
   const theme = useContext(themeContext);
   const darkMode = theme.state.darkMode;
   return (
-    <div className={classes.services}>
+    <div className={classes.services} id='Services'>
         {/* left side */}
         <div className={classes.awesome}>
             <span style={{color : darkMode? 'white' : ''}}>RELENTLESS</span>

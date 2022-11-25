@@ -35,7 +35,7 @@ function Testimonials() {
 },
 ]
   return (
-    <div className={classes.testimonial__wrapper}>
+    <div className={classes.testimonial__wrapper} id='Testimonials'>
         <div className={classes.testimonial__heading}>
             <span>Clients always get </span>
             <span>Exceptional Work </span>

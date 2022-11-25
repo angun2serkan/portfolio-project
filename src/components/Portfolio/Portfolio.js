@@ -12,7 +12,7 @@ import Acun from "../../img/Acun.png";
 
 function Portfolio() {
   return (
-    <div className={classes.portfolio}>
+    <div className={classes.portfolio} id='Portfolio'>
 
         {/* heading */}
         <div className={classes.portfolio__header}>

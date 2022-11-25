@@ -34,11 +34,13 @@
     gap: 1.5rem;
     list-style-type: none;
     margin-inline-end: 2rem;
+    cursor: pointer;
 }
 
 .navbar__list > ul >li:hover{
     cursor:pointer;
     color: var(--orange);
+
 }
 
 .button{
