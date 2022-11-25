@@ -5,14 +5,19 @@ import HeartEmoji from '../../img/heartemoji.png';
 import Glasses from '../../img/glasses.png';
 import Humble from '../../img/humble.png';
 import Resume from './Resume.pdf'
+import {themeContext} from '../../Context.js';
+import {useContext} from 'react';
 
 
 function Services() {
+
+  const theme = useContext(themeContext);
+  const darkMode = theme.state.darkMode;
   return (
     <div className={classes.services}>
         {/* left side */}
         <div className={classes.awesome}>
-            <span>RELENTLESS</span>
+            <span style={{color : darkMode? 'white' : ''}}>RELENTLESS</span>
             <span>Services</span>
             <span>
             Lorem ipsum dolor sit, amet consectetur adipisicing elit.<br/> 

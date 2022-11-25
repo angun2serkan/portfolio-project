@@ -1,5 +1,6 @@
 import React from 'react'
 import classes from './Navbar.module.css';
+import Toggle from '../Toggle/Toggle';
 
 
 function Navbar() {
@@ -7,7 +8,7 @@ function Navbar() {
     <div className={classes.navbar__wrapper}>
         <div className={classes.navbar__left}>
             <div className={classes.navbar__blogname}>Relentless Tech</div>
-            <span>toggle</span>
+            <Toggle/>
         </div>
         <div className={classes.navbar__right}>
             <div className={classes.navbar__list}>

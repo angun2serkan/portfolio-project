@@ -9,15 +9,20 @@ import Instagram from '../../img/instagram.png'
 import Vector1 from '../../img/Vector1.png';
 import Vector2 from '../../img/Vector2.png';
 import Boy from '../../img/boy.png';
+import {themeContext} from '../../Context.js';
+import {useContext} from 'react';
 
 
 function Intro() {
+
+  const theme = useContext(themeContext);
+  const darkMode = theme.state.darkMode;
   return (
     <div className={classes.intro}>
       {/* left name side */}
         <div className={classes.intro__left}>
             <div className={classes.intro__name}>
-                <span>We are here to </span>
+                <span style={{color : darkMode? 'white' : ''}}>We are here to </span>
                 <span>Turn the Rock You have into a Statue </span>
                 <span>just like what Michalengelo did to David!</span>
             </div>
