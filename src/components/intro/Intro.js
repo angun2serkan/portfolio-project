@@ -12,9 +12,7 @@ import Boy from '../../img/boy.png';
 import {themeContext} from '../../Context.js';
 import {useContext} from 'react';
 
-
 function Intro() {
-
   const theme = useContext(themeContext);
   const darkMode = theme.state.darkMode;
   return (

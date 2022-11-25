@@ -7,10 +7,11 @@ import Humble from '../../img/humble.png';
 import Resume from './Resume.pdf'
 import {themeContext} from '../../Context.js';
 import {useContext} from 'react';
-
+import {motion} from 'framer-motion';
 
 function Services() {
-
+  
+  const transition = {duration: 2, type: 'spring'};
   const theme = useContext(themeContext);
   const darkMode = theme.state.darkMode;
   return (
@@ -33,17 +34,29 @@ function Services() {
 
         {/* right side */}
         <div className={classes.cards}>
-          <div style={{left:'14rem'}}>
+          <motion.div
+          whileInView={{left:'10rem'}}
+          initial={{left:'25%'}}
+          transition={transition}
+           style={{left:'14rem'}}>
             <Card emoji={HeartEmoji} heading={'UX/UI '} detail={"Figma, Sketch, Photoshop, Adobe"}/>
-          </div>
+          </motion.div>
 
-          <div style={{top:"12rem", left:"-4rem"}}>
+          <motion.div 
+          whileInView={{left:'-10rem'}}
+          initial={{left:'20%'}}
+          transition={transition}
+          style={{top:"12rem", left:"-4rem"}}>
             <Card emoji={Glasses} heading={"Development"} detail={"Html, CSS, Javascript, React"}/>
-          </div>
+          </motion.div>
 
-          <div style={{top:"19rem", left:"12rem"}}>
+          <motion.div
+          whileInView={{left:'10rem'}}
+          initial={{left:'25%'}}
+          transition={transition}
+           style={{top:"19rem", left:"12rem"}}>
             <Card emoji={Humble} heading={"Data Engineering"} detail={"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has"}/>
-          </div>
+          </motion.div>
 
           <div className={`${classes.blur} ${classes.services__blur2}`} style={{background: "var(--purple)"}}></div>
         </div>
